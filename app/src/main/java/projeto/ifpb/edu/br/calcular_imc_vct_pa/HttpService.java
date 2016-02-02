@@ -18,7 +18,7 @@ import java.net.URL;
  */
 public class HttpService {
 
-    private static final String URL_CONTEXT = "Base:lADOOS.COM.BR:8443/calcular_imc_vct_pa/Calcular_IMC_VCT_PA_service/";
+    private static final String URL_CONTEXT = "Base:lADOOS.COM.BR:8443/calcular_imc_vct_pa/status_service/";
     public static HttpURLConnection sendGetRequest(String service)
             throws MalformedURLException, IOException {
 
